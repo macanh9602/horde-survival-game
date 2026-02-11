@@ -2,20 +2,29 @@ using System.Collections.Generic;
 using System.Linq;
 using BehaviorDesigner.Runtime;
 using Sirenix.OdinInspector;
+using Sirenix.OdinInspector.Editor;
 using UnityEngine;
 
 public class Teemo : TacticianBase
 {
     [SerializeField] private BehaviorTree behaviorTree;
     [SerializeField] private Animator animator;
+    [SerializeField] private InputHandle inputHandle;
     [SerializeField, ValueDropdown(nameof(GetAnimationClip))] AnimationClip walkClip;
     [SerializeField, ValueDropdown(nameof(GetAnimationClip))] AnimationClip idleClip;
     private const string TargetPositionKey = "TargetPosition";
     private const string IsMovingKey = "IsMoving";
+    public bool isMoving = false;
+    public Vector3 GetTargetPosition()
+    {
+        return inputHandle.cachedMouseWorldPos;
+    }
+
     public override void MoveTo(Vector3 worldPos)
     {
         behaviorTree.SetVariableValue(TargetPositionKey, worldPos);
-        behaviorTree.SetVariableValue(IsMovingKey, true);
+        behaviorTree.SetVariableValue(IsMovingKey, isMoving);
+        isMoving = !isMoving;
         Debug.Log($"<color=green>[DA]</color> ping {behaviorTree.GetVariable(IsMovingKey)} -> {behaviorTree.GetVariable(TargetPositionKey)}");
     }
 
@@ -27,6 +36,7 @@ public class Teemo : TacticianBase
     public void Idle()
     {
         animator.Play(idleClip.name);
+        behaviorTree.SetVariableValue(IsMovingKey, true);
     }
 
     public IEnumerable<AnimationClip> GetAnimationClip()

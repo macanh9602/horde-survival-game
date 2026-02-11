@@ -6,9 +6,10 @@ public class InputHandle : MonoBehaviour
     // [SerializeField] private LayerMask groundLayer;
     [SerializeField] private HexGridConverter gridConverter;
     [SerializeField] private TacticianBase currentTactician;
+    public Vector3 cachedMouseWorldPos;
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(1))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             LayerMask groundLayer = LayerMask.GetMask(StaticVariables.Ground_Layer);
@@ -23,7 +24,8 @@ public class InputHandle : MonoBehaviour
                         OnHexClicked(axial);
                     }
                 }
-                currentTactician.MoveTo(hitInfo.point);
+                cachedMouseWorldPos = hitInfo.point;
+                currentTactician.MoveTo(cachedMouseWorldPos);
             }
         }
     }

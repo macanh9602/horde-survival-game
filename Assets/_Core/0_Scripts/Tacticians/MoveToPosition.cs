@@ -8,8 +8,6 @@ using System.Linq;
 [TaskCategory("Tactician")]
 public class MoveToPosition : Action
 {
-    public SharedVector3 targetPosition;
-    public SharedBool isMoving;
     public float moveSpeed = 5f;
     public float rotationSpeed = 10f;
 
@@ -20,16 +18,14 @@ public class MoveToPosition : Action
 
     public override void OnStart()
     {
-        Debug.Log($"<color=green>[DA]</color> start");
         teemo.Walk();
     }
 
 
     public override TaskStatus OnUpdate()
     {
-        Debug.Log($"<color=green>[DA]</color> update");
         Vector3 currentPos = transform.position;
-        Vector3 destination = targetPosition.Value;
+        Vector3 destination = teemo.GetTargetPosition();
         destination.y = currentPos.y; // Đảm bảo linh thú không bay lên
 
         float distance = Vector3.Distance(currentPos, destination);
@@ -50,8 +46,7 @@ public class MoveToPosition : Action
 
     public override void OnEnd()
     {
-        Debug.Log($"<color=green>[DA]</color> end");
         teemo.Idle();
-        isMoving.Value = false;
+
     }
 }
