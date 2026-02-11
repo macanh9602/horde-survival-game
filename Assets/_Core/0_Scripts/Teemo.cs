@@ -25,7 +25,7 @@ public class Teemo : TacticianBase
         behaviorTree.SetVariableValue(TargetPositionKey, worldPos);
         behaviorTree.SetVariableValue(IsMovingKey, isMoving);
         isMoving = !isMoving;
-        Debug.Log($"<color=green>[DA]</color> ping {behaviorTree.GetVariable(IsMovingKey)} -> {behaviorTree.GetVariable(TargetPositionKey)}");
+        //Debug.Log($"<color=green>[DA]</color> ping {behaviorTree.GetVariable(IsMovingKey)} -> {behaviorTree.GetVariable(TargetPositionKey)}");
     }
 
     public void Walk()
