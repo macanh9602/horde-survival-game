@@ -1,0 +1,395 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PresetSpriteAtlas
+  m_TargetType:
+    m_NativeTypeID: 687078895
+    m_ManagedTypePPtr: {fileID: 0}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.textureSettings.anisoLevel
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.textureSettings.compressionQuality
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.textureSettings.maxTextureSize
+    value: 2048
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.textureSettings.textureCompression
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.textureSettings.filterMode
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.textureSettings.generateMipMaps
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.textureSettings.readable
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.textureSettings.crunchedCompression
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.textureSettings.sRGB
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[0].m_BuildTarget
+    value: DefaultTexturePlatform
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[0].m_MaxTextureSize
+    value: 128
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[0].m_ResizeAlgorithm
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[0].m_TextureFormat
+    value: -1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[0].m_TextureCompression
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[0].m_CompressionQuality
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[0].m_CrunchedCompression
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[0].m_AllowsAlphaSplitting
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[0].m_Overridden
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[0].m_AndroidETC2FallbackOverride
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[0].m_ForceMaximumCompressionQuality_BC6H_BC7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[1].m_BuildTarget
+    value: iPhone
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[1].m_MaxTextureSize
+    value: 1024
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[1].m_ResizeAlgorithm
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[1].m_TextureFormat
+    value: 47
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[1].m_TextureCompression
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[1].m_CompressionQuality
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[1].m_CrunchedCompression
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[1].m_AllowsAlphaSplitting
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[1].m_Overridden
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[1].m_AndroidETC2FallbackOverride
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[1].m_ForceMaximumCompressionQuality_BC6H_BC7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[2].m_BuildTarget
+    value: Android
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[2].m_MaxTextureSize
+    value: 1024
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[2].m_ResizeAlgorithm
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[2].m_TextureFormat
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[2].m_TextureCompression
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[2].m_CompressionQuality
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[2].m_CrunchedCompression
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[2].m_AllowsAlphaSplitting
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[2].m_Overridden
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[2].m_AndroidETC2FallbackOverride
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.platformSettings.Array.data[2].m_ForceMaximumCompressionQuality_BC6H_BC7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.packingSettings.padding
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.packingSettings.blockOffset
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.packingSettings.allowAlphaSplitting
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.packingSettings.enableRotation
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.packingSettings.enableTightPacking
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.packingSettings.enableAlphaDilation
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.secondaryTextureSettings.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.variantMultiplier
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.packables.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.bindAsDefault
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.isAtlasV2
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorData.cachedData
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MasterAtlas
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSprites.Array.size
+    value: 17
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSprites.Array.data[0]
+    value: 
+    objectReference: {fileID: 21300000, guid: 066d3840badf4d24dba1d42b4c59b888, type: 3}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSprites.Array.data[1]
+    value: 
+    objectReference: {fileID: 21300000, guid: b902f763d0e47364dae25207b7e47800, type: 3}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSprites.Array.data[2]
+    value: 
+    objectReference: {fileID: 21300000, guid: b3905a73a6672d9449647aaf036e23fc, type: 3}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSprites.Array.data[3]
+    value: 
+    objectReference: {fileID: 21300000, guid: 066c0b04be98cd348abb79add91d42bf, type: 3}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSprites.Array.data[4]
+    value: 
+    objectReference: {fileID: 21300000, guid: 7a9e374666ad6cc47807bb001844f3d8, type: 3}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSprites.Array.data[5]
+    value: 
+    objectReference: {fileID: 21300000, guid: b3f0d976f6d6802479d6465d11b3aa68, type: 3}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSprites.Array.data[6]
+    value: 
+    objectReference: {fileID: 21300000, guid: e04e6c970b950d946a782ea08e5f971d, type: 3}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSprites.Array.data[7]
+    value: 
+    objectReference: {fileID: 21300000, guid: 66305a19e3614694f868c75a982e6b68, type: 3}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSprites.Array.data[8]
+    value: 
+    objectReference: {fileID: 21300000, guid: a97ca0b99ece2d94aaaf59653feb45dd, type: 3}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSprites.Array.data[9]
+    value: 
+    objectReference: {fileID: 21300000, guid: af17f91b4376d6a41a793c056c02dadc, type: 3}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSprites.Array.data[10]
+    value: 
+    objectReference: {fileID: 21300000, guid: a9fd8f6b461461f4a92eafc60921ee78, type: 3}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSprites.Array.data[11]
+    value: 
+    objectReference: {fileID: 21300000, guid: 05c7216c78d4dd34ebe2bac9c1e274d7, type: 3}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSprites.Array.data[12]
+    value: 
+    objectReference: {fileID: 21300000, guid: d1546f8db185caf4dafcfa58efa3ba2c, type: 3}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSprites.Array.data[13]
+    value: 
+    objectReference: {fileID: 21300000, guid: 5a97d5afa6254804f81b7ba956296996, type: 3}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSprites.Array.data[14]
+    value: 
+    objectReference: {fileID: 21300000, guid: 33b115bf5efdfa04d8e2e0b70a6643cd, type: 3}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSprites.Array.data[15]
+    value: 
+    objectReference: {fileID: 21300000, guid: 98e8e1cf8dc7dbf469617c2e40c8a944, type: 3}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSprites.Array.data[16]
+    value: 
+    objectReference: {fileID: 21300000, guid: 7f0db3cf23c93fc4eac01cb3a52388ee, type: 3}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSpriteNamesToIndex.Array.size
+    value: 17
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSpriteNamesToIndex.Array.data[0]
+    value: SlicedBackground
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSpriteNamesToIndex.Array.data[1]
+    value: IconSnapToBottomBg
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSpriteNamesToIndex.Array.data[2]
+    value: IconHide
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSpriteNamesToIndex.Array.data[3]
+    value: IconSnapToBottom
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSpriteNamesToIndex.Array.data[4]
+    value: IconClear
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSpriteNamesToIndex.Array.data[5]
+    value: SlicedBackground3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSpriteNamesToIndex.Array.data[6]
+    value: SearchIcon
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSpriteNamesToIndex.Array.data[7]
+    value: IconError
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSpriteNamesToIndex.Array.data[8]
+    value: IconErrorHighRes
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSpriteNamesToIndex.Array.data[9]
+    value: IconWarningHighRes
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSpriteNamesToIndex.Array.data[10]
+    value: IconResizeVertialOnly
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSpriteNamesToIndex.Array.data[11]
+    value: IconWarning
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSpriteNamesToIndex.Array.data[12]
+    value: IconCollapse
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSpriteNamesToIndex.Array.data[13]
+    value: IconInfo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSpriteNamesToIndex.Array.data[14]
+    value: IconInfoHighRes
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSpriteNamesToIndex.Array.data[15]
+    value: SlicedBackground2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PackedSpriteNamesToIndex.Array.data[16]
+    value: IconResizeAllDirections
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_RenderDataMap.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Tag
+    value: PresetSpriteAtlas
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_IsVariant
+    value: 0
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []
