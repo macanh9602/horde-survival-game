@@ -1,0 +1,1034 @@
+fileFormatVersion: 2
+guid: be257902e2563f94bb0cc819b96372ac
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_0
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 827
+        width: 274
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d20861849f5f1543bda7ac501c3023b
+      internalID: 1618049690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_4
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 828
+        width: 180
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e64b043d2ca36d43b731170d453bd15
+      internalID: -1249966310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_5
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 780
+        width: 241
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ecc598940003cf46a49c3ff217807f5
+      internalID: -548193754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_7
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 795
+        width: 216
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d53204e54d6bc4eb747d0944ae33d3
+      internalID: -1738537239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_11
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 669
+        width: 178
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c15777c7bc27af4b9cda25ceec4b190
+      internalID: -725886321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_12
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 667
+        width: 156
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2555479085d216a4fa6dbe1bc3006450
+      internalID: -428216419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_16
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 573
+        width: 214
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56629540d561a34cbe856c893c613d2
+      internalID: 1781494026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_17
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 571
+        width: 216
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ab9e71328d8514fa6d29e4be2d4f50
+      internalID: 1924316549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_24
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 499
+        width: 158
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf47cf0413526c429bda298f264e717
+      internalID: -973978755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_25
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 499
+        width: 154
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff34a0cf2dc2e642b829a1ddb8d975b
+      internalID: 146676807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_27
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 438
+        width: 71
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a98d7e763d4d64e846db049f3c567a
+      internalID: -1256997973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_28
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 492
+        width: 350
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57ce2f2ba4459b41948c8b3b47134d2
+      internalID: -507542156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_29
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 331
+        width: 156
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e7a59abed43a8448f4c2db089e7751
+      internalID: -1266422095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_30
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 331
+        width: 154
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5243c09409ad1848b54fdfcf2dbc120
+      internalID: -1065972588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_32
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 47
+        width: 183
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865f9c0c305e67d4f8419cb202b62aa0
+      internalID: 69071840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_33
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 177
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce5bda4aac95e34ab7fd19c30060a8e
+      internalID: 1235589027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_34
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 97
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14edb4206c09fa4f9ab537acd682030
+      internalID: -300876421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_36
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 5
+        width: 57
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def896375b6e68f4290fe3a96c38079d
+      internalID: -927034944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_37
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 11
+        width: 154
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543924ce0ecb901469dfe81b0f4e4cb5
+      internalID: -1250757297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_38
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 11
+        width: 159
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4809d9e47dd493478968735727a392a
+      internalID: 313155387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_39
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 15
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543c41af3ae6c404db8370ab4828717d
+      internalID: -2000320801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_40
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 7
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d6bdf1800e5a84883d6ba8d303f387
+      internalID: 1757174806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_42
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 9
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06297a7d1e7dbe645b2331db8a1cfba4
+      internalID: 1789619056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_43
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 9
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f819fc4fde15d14d94bb8e4d13a6c98
+      internalID: -2053663379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_44
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 9
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a16a10bf13dcfd4aa95c41363af4790
+      internalID: -975954410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_45
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 0
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a98c7498d317f43be0cbc0538f7a7c
+      internalID: -1338952815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_46
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 5
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8569c91761e1244b7dfbdf8baad390
+      internalID: -918277985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_1
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 440
+        width: 69
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b95272ffcb7f554dbfcd7c3bf723da2
+      internalID: -1682133147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_2
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 441
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52a6643112b5c04d85dadc8c89dd0a1
+      internalID: -1062754808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_3
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 444
+        width: 71
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb305982d745b1498798bf1b2a622f8
+      internalID: 2094409399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_6
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 443
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39429b7f565fd38479c26e150600ba42
+      internalID: 313284665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_8
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 202
+        width: 82
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b926ac9866e4e0543a602d1a5816b7d3
+      internalID: -475810677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_9
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 275
+        width: 153
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c30fedbce34b54fbf3c10d5bdfeec1
+      internalID: -1065745316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_10
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 275
+        width: 152
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac31a769dcdb6d4bbae35af14b42009
+      internalID: -1492089069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_13
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 275
+        width: 156
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f2e80be78a6144e8a05807df0ce3d0
+      internalID: 1248437698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_14
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 119
+        width: 157
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba10019dc721e943891513a58c27c7e
+      internalID: 2122835137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_unitshop_button_texture_atlas_15
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 197
+        width: 80
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d713b5f998eab64e9c08c9c41594db2
+      internalID: -2040980241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      tftm_unitshop_button_texture_atlas_0: 1618049690
+      tftm_unitshop_button_texture_atlas_1: -1682133147
+      tftm_unitshop_button_texture_atlas_10: -1492089069
+      tftm_unitshop_button_texture_atlas_11: -725886321
+      tftm_unitshop_button_texture_atlas_12: -428216419
+      tftm_unitshop_button_texture_atlas_13: 1248437698
+      tftm_unitshop_button_texture_atlas_14: 2122835137
+      tftm_unitshop_button_texture_atlas_15: -2040980241
+      tftm_unitshop_button_texture_atlas_16: 1781494026
+      tftm_unitshop_button_texture_atlas_17: 1924316549
+      tftm_unitshop_button_texture_atlas_18: -1759539045
+      tftm_unitshop_button_texture_atlas_19: -1860804608
+      tftm_unitshop_button_texture_atlas_2: -1062754808
+      tftm_unitshop_button_texture_atlas_20: 1574116530
+      tftm_unitshop_button_texture_atlas_21: 944935677
+      tftm_unitshop_button_texture_atlas_22: -2019778010
+      tftm_unitshop_button_texture_atlas_23: -2049434230
+      tftm_unitshop_button_texture_atlas_24: -973978755
+      tftm_unitshop_button_texture_atlas_25: 146676807
+      tftm_unitshop_button_texture_atlas_26: 837062390
+      tftm_unitshop_button_texture_atlas_27: -1256997973
+      tftm_unitshop_button_texture_atlas_28: -507542156
+      tftm_unitshop_button_texture_atlas_29: -1266422095
+      tftm_unitshop_button_texture_atlas_3: 2094409399
+      tftm_unitshop_button_texture_atlas_30: -1065972588
+      tftm_unitshop_button_texture_atlas_31: 927158236
+      tftm_unitshop_button_texture_atlas_32: 69071840
+      tftm_unitshop_button_texture_atlas_33: 1235589027
+      tftm_unitshop_button_texture_atlas_34: -300876421
+      tftm_unitshop_button_texture_atlas_35: -508608120
+      tftm_unitshop_button_texture_atlas_36: -927034944
+      tftm_unitshop_button_texture_atlas_37: -1250757297
+      tftm_unitshop_button_texture_atlas_38: 313155387
+      tftm_unitshop_button_texture_atlas_39: -2000320801
+      tftm_unitshop_button_texture_atlas_4: -1249966310
+      tftm_unitshop_button_texture_atlas_40: 1757174806
+      tftm_unitshop_button_texture_atlas_41: -991458653
+      tftm_unitshop_button_texture_atlas_42: 1789619056
+      tftm_unitshop_button_texture_atlas_43: -2053663379
+      tftm_unitshop_button_texture_atlas_44: -975954410
+      tftm_unitshop_button_texture_atlas_45: -1338952815
+      tftm_unitshop_button_texture_atlas_46: -918277985
+      tftm_unitshop_button_texture_atlas_47: -1432561375
+      tftm_unitshop_button_texture_atlas_48: -1755087148
+      tftm_unitshop_button_texture_atlas_5: -548193754
+      tftm_unitshop_button_texture_atlas_6: 313284665
+      tftm_unitshop_button_texture_atlas_7: -1738537239
+      tftm_unitshop_button_texture_atlas_8: -475810677
+      tftm_unitshop_button_texture_atlas_9: -1065745316
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

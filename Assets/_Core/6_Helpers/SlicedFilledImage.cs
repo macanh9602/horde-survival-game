@@ -223,7 +223,7 @@ namespace Watermelon
 #if UNITY_EDITOR
 					if (Application.isPlaying)
 #endif
-						return Image.defaultETC1GraphicMaterial;
+					return Image.defaultETC1GraphicMaterial;
 				}
 
 				return defaultMaterial;
@@ -746,24 +746,24 @@ namespace Watermelon
 
 	public static class SlicedFilledImageExtensions
 	{
-		// public static Tween DOFillAmount(this SlicedFilledImage image, float endValue, float duration)
-		// {
-		// 	if (image == null)
-		// 		return null;
+		public static Tween DOFillAmount(this SlicedFilledImage image, float endValue, float duration)
+		{
+			if (image == null)
+				return null;
 
-		// 	return DOTween.To(() => image.fillAmount, value => image.fillAmount = value, endValue, duration)
-		// 		.SetTarget(image);
-		// }
+			return DOTween.To(() => image.fillAmount, value => image.fillAmount = value, endValue, duration)
+				.SetTarget(image);
+		}
 
-		// public static Tween DOFillAmount(this SlicedFilledImage image, float endValue, float duration, float delay, bool unscaledTime, UpdateType updateType = UpdateType.Normal)
-		// {
-		// 	if (image == null)
-		// 		return null;
+		public static Tween DOFillAmount(this SlicedFilledImage image, float endValue, float duration, float delay, bool unscaledTime, UpdateType updateType = UpdateType.Normal)
+		{
+			if (image == null)
+				return null;
 
-		// 	return DOTween.To(() => image.fillAmount, value => image.fillAmount = value, endValue, duration)
-		// 		.SetDelay(delay)
-		// 		.SetUpdate(updateType, unscaledTime)
-		// 		.SetTarget(image);
-		// }
+			return DOTween.To(() => image.fillAmount, value => image.fillAmount = value, endValue, duration)
+				.SetDelay(delay)
+				.SetUpdate(updateType, unscaledTime)
+				.SetTarget(image);
+		}
 	}
 }
