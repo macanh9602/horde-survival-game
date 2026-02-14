@@ -4,9 +4,10 @@ using VTLTools;
 public class InputHandle : MonoBehaviour
 {
     // [SerializeField] private LayerMask groundLayer;
-    [SerializeField] private HexGridConverter gridConverter;
     [SerializeField] private TacticianBase currentTactician;
+    [SerializeField] private HexGridView gridView;
     public Vector3 cachedMouseWorldPos;
+
     private void Update()
     {
         if (Input.GetMouseButtonDown(1))
@@ -16,13 +17,11 @@ public class InputHandle : MonoBehaviour
             if (Physics.Raycast(ray, out RaycastHit hitInfo, Mathf.Infinity, groundLayer))
             {
                 Debug.DrawLine(ray.origin, hitInfo.point, Color.yellow, 2f);
-                if (gridConverter.TryGetAxial(hitInfo.point, out Vector2Int axial))
+                if (gridView.TryGetCube(hitInfo.point, out Vector3Int cube))
                 {
-                    if (gridConverter.TryGetWorld(axial, out Vector3 cellCenter))
-                    {
-                        DebugUtils.DrawWireSphere(cellCenter, 0.2f, Color.red, 2f);
-                        OnHexClicked(axial);
-                    }
+                    Vector3 cellCenter = gridView.CubeToWorldInternal(cube.x, cube.y, cube.z);
+                    DebugUtils.DrawWireSphere(cellCenter, 0.2f, Color.red, 2f);
+                    OnHexClicked(cube);
                 }
                 cachedMouseWorldPos = hitInfo.point;
                 currentTactician.MoveTo(cachedMouseWorldPos);
@@ -30,8 +29,8 @@ public class InputHandle : MonoBehaviour
         }
     }
 
-    private void OnHexClicked(Vector2Int axial)
+    private void OnHexClicked(Vector3Int cube)
     {
-        //Debug.Log($"Hex clicked: {axial}");
+        //Debug.Log($"Hex clicked: {cube}");
     }
 }

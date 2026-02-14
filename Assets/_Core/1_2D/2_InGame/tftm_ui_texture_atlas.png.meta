@@ -108,7 +108,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Android
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: 50
     textureCompression: 1
@@ -147,7 +147,403 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: tftm_ui_texture_atlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 486
+        width: 256
+        height: 538
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a141b2069249e8142970907075cca89e
+      internalID: 1787784862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_ui_texture_atlas_1
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 958
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a85dc54751b39945a4848db5fa95ea4
+      internalID: -1492568406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_ui_texture_atlas_3
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 958
+        width: 68
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9c1d7de900d3848ad723d37af6d7cf
+      internalID: 429913817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_ui_texture_atlas_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 890
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd1e57af026fa042835a90b92768af6
+      internalID: 1274110494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_ui_texture_atlas_5
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 890
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970cea9dd3775ae429dadb433fd74a73
+      internalID: -439214383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_ui_texture_atlas_6
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 930
+        width: 96
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc713026b6404e4f9ea1b8d9c2a3aaf
+      internalID: 534959261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_ui_texture_atlas_7
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 808
+        width: 142
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a49e4a5e4721d4fae4a246270bd2e2
+      internalID: -1322343491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_ui_texture_atlas_8
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 812
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af34ecb166f69974480912d9bd41ee0b
+      internalID: -1480213349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_ui_texture_atlas_9
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 662
+        width: 142
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f232f577d1657942a9bb7b3bca768cb
+      internalID: -1275201001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_ui_texture_atlas_10
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 739
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4d250b724435a47a607315ee7c02dc
+      internalID: -698797149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_ui_texture_atlas_11
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 666
+        width: 66
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace635457d6a14f41b713fb996298394
+      internalID: -1476938423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_ui_texture_atlas_12
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 593
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792782be5dc91d6479f362f429d59ba7
+      internalID: 922933423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_ui_texture_atlas_13
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 514
+        width: 142
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a715ed9836ced5f43b06bf13f6985a3d
+      internalID: 922906425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_ui_texture_atlas_14
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 435
+        width: 142
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740620d52b791124b98714e7b1f73ce6
+      internalID: -1670067155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_ui_texture_atlas_15
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 283
+        width: 142
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91ea3b49699edf4789857ed58dffd37
+      internalID: -402270354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_ui_texture_atlas_16
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 361
+        width: 142
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0689fcd6820c83448a2737515aaacb0
+      internalID: -320979056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_ui_texture_atlas_17
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 589
+        width: 142
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5403f570010c354f9e7bcc37a62f89a
+      internalID: -227784529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_ui_texture_atlas_18
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 735
+        width: 142
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c40478abc2e74c478898f61a6b20b08
+      internalID: -1518881983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -160,8 +556,29 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
-    nameFileIdTable: {}
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      tftm_ui_texture_atlas_0: 1787784862
+      tftm_ui_texture_atlas_1: -1492568406
+      tftm_ui_texture_atlas_10: -698797149
+      tftm_ui_texture_atlas_11: -1476938423
+      tftm_ui_texture_atlas_12: 922933423
+      tftm_ui_texture_atlas_13: 922906425
+      tftm_ui_texture_atlas_14: -1670067155
+      tftm_ui_texture_atlas_15: -402270354
+      tftm_ui_texture_atlas_16: -320979056
+      tftm_ui_texture_atlas_17: -227784529
+      tftm_ui_texture_atlas_18: -1518881983
+      tftm_ui_texture_atlas_2: 1512666761
+      tftm_ui_texture_atlas_3: 429913817
+      tftm_ui_texture_atlas_4: 1274110494
+      tftm_ui_texture_atlas_5: -439214383
+      tftm_ui_texture_atlas_6: 534959261
+      tftm_ui_texture_atlas_7: -1322343491
+      tftm_ui_texture_atlas_8: -1480213349
+      tftm_ui_texture_atlas_9: -1275201001
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
