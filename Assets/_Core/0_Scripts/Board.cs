@@ -9,18 +9,18 @@ public class Board : Singleton<Board>
     public HexGridModel gridModel;
     public HexPathFinder pathFinder;
     [SerializeField] private HexGridContext gridContext;
-    private Dictionary<Vector3Int, CellDetail> cells;
-    private Func<Vector3Int, CellDetail> cachedCellDetails;
+    private Dictionary<Vector3Int, CellState> cells;
+    private Func<Vector3Int, CellState> cachedCellDetails;
 
     private void Start()
     {
         gridModel = new HexGridModel(gridContext.GridData.width, gridContext.GridData.height);
         pathFinder = new HexPathFinder(gridModel);
         gridContext.CacheOffsets();
-        cells = new Dictionary<Vector3Int, CellDetail>();
+        cells = new Dictionary<Vector3Int, CellState>();
         foreach (var cell in gridModel.allCells)
         {
-            cells[cell] = new CellDetail { Walkable = true };
+            cells[cell] = new CellState { Walkable = true };
         }
         cachedCellDetails = GetCellDetail;
     }
@@ -28,12 +28,12 @@ public class Board : Singleton<Board>
     /// <summary>
     /// Gets cell details using Cube coordinates.
     /// </summary>
-    public CellDetail GetCellDetail(Vector3Int cube)
+    public CellState GetCellDetail(Vector3Int cube)
     {
         if (!cells.TryGetValue(cube, out var cell))
-            return new CellDetail { Walkable = false };
+            return new CellState { Walkable = false };
 
-        return new CellDetail
+        return new CellState
         {
             Walkable = cell.Walkable
         };

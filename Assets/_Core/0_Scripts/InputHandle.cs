@@ -1,11 +1,13 @@
 using UnityEngine;
 using VTLTools;
+using VTLTools.Effect;
 
 public class InputHandle : MonoBehaviour
 {
     // [SerializeField] private LayerMask groundLayer;
     [SerializeField] private TacticianBase currentTactician;
     [SerializeField] private HexGridView gridView;
+    [SerializeField] private Effect clickEffectPrefab;
     public Vector3 cachedMouseWorldPos;
 
     private void Update()
@@ -25,6 +27,8 @@ public class InputHandle : MonoBehaviour
                 }
                 cachedMouseWorldPos = hitInfo.point;
                 currentTactician.MoveTo(cachedMouseWorldPos);
+                Effect effect = ObjectPool.Spawn(clickEffectPrefab, cachedMouseWorldPos, Quaternion.identity);
+                effect.Play();
             }
         }
     }
