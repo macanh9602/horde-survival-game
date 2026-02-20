@@ -1,78 +1,80 @@
 
-using DucDevGame;
 using UnityEngine;
 
-public class UnitBase : MonoBehaviour, IDraggable
+namespace DucDevGame
 {
-    [Header("Drag Feel")]
-    [SerializeField] private float dragSmoothTime = 0.05f;
-    [SerializeField] private float dropSmoothTime = 0.1f;
-    [SerializeField] private float pickUpHeight = 0.45f;
-    [SerializeField] private float scaleMultiplier = 1.08f;
-    [SerializeField] private float tiltStrength = 6f;
-    [SerializeField] private float tiltSpeed = 12f;
-
-    private Vector3 _originalPosition;
-    private Vector3 _targetPosition;
-    private Vector3 _velocity;
-    private Vector3 _originalScale;
-    private bool _isDragging;
-    private float _currentHeight;
-
-    private void Awake()
+    public class UnitBase : MonoBehaviour, IDraggable
     {
-        _originalScale = transform.localScale;
-    }
+        [Header("Drag Feel")]
+        [SerializeField] private float dragSmoothTime = 0.05f;
+        [SerializeField] private float dropSmoothTime = 0.1f;
+        [SerializeField] private float pickUpHeight = 0.45f;
+        [SerializeField] private float scaleMultiplier = 1.08f;
+        [SerializeField] private float tiltStrength = 6f;
+        [SerializeField] private float tiltSpeed = 12f;
 
-    public Transform GetTransform()
-    {
-        return this.transform;
-    }
+        private Vector3 _originalPosition;
+        private Vector3 _targetPosition;
+        private Vector3 _velocity;
+        private Vector3 _originalScale;
+        private bool _isDragging;
+        private float _currentHeight;
 
-    public void OnDragStart()
-    {
-        _isDragging = true;
-        _originalPosition = transform.position;
-        _targetPosition = _originalPosition;
-        transform.localScale = _originalScale * scaleMultiplier;
-        _velocity = Vector3.zero;
-    }
+        private void Awake()
+        {
+            _originalScale = transform.localScale;
+        }
 
-    public void OnDragUpdate(Vector3 worldPos)
-    {
-        _targetPosition = worldPos;
-    }
+        public Transform GetTransform()
+        {
+            return this.transform;
+        }
 
-    public void OnDrop(Vector3 finalPos)
-    {
-        _isDragging = false;
-        _targetPosition = finalPos;
-        transform.localScale = _originalScale;
-    }
+        public void OnDragStart()
+        {
+            _isDragging = true;
+            _originalPosition = transform.position;
+            _targetPosition = _originalPosition;
+            transform.localScale = _originalScale * scaleMultiplier;
+            _velocity = Vector3.zero;
+        }
 
-    private void Update()
-    {
-        float targetHeight = _isDragging ? pickUpHeight : 0f;
-        _currentHeight = Mathf.Lerp(_currentHeight, targetHeight, Time.deltaTime * 12f);
+        public void OnDragUpdate(Vector3 worldPos)
+        {
+            _targetPosition = worldPos;
+        }
 
-        Vector3 targetPosWithHeight = _targetPosition + Vector3.up * _currentHeight;
-        float smoothTime = _isDragging ? dragSmoothTime : dropSmoothTime;
+        public void OnDrop(Vector3 finalPos)
+        {
+            _isDragging = false;
+            _targetPosition = finalPos;
+            transform.localScale = _originalScale;
+        }
 
-        transform.position = Vector3.SmoothDamp(
-            transform.position,
-            targetPosWithHeight,
-            ref _velocity,
-            smoothTime
-        );
+        private void Update()
+        {
+            float targetHeight = _isDragging ? pickUpHeight : 0f;
+            _currentHeight = Mathf.Lerp(_currentHeight, targetHeight, Time.deltaTime * 12f);
 
-    }
+            Vector3 targetPosWithHeight = _targetPosition + Vector3.up * _currentHeight;
+            float smoothTime = _isDragging ? dragSmoothTime : dropSmoothTime;
 
-    public void ResetPosition()
-    {
-        _isDragging = false;
-        transform.position = _originalPosition;
-        _targetPosition = _originalPosition;
-        _velocity = Vector3.zero;
-        transform.localScale = _originalScale;
+            transform.position = Vector3.SmoothDamp(
+                transform.position,
+                targetPosWithHeight,
+                ref _velocity,
+                smoothTime
+            );
+
+        }
+
+        public void ResetPosition()
+        {
+            _isDragging = false;
+            transform.position = _originalPosition;
+            _targetPosition = _originalPosition;
+            _velocity = Vector3.zero;
+            transform.localScale = _originalScale;
+        }
     }
 }

@@ -223,7 +223,7 @@ namespace Watermelon
 #if UNITY_EDITOR
 					if (Application.isPlaying)
 #endif
-					return Image.defaultETC1GraphicMaterial;
+						return Image.defaultETC1GraphicMaterial;
 				}
 
 				return defaultMaterial;
@@ -755,7 +755,7 @@ namespace Watermelon
 				.SetTarget(image);
 		}
 
-		public static Tween DOFillAmount(this SlicedFilledImage image, float endValue, float duration, float delay, bool unscaledTime, UpdateType updateType = UpdateType.Normal)
+		public static Tween DOFillAmount(this SlicedFilledImage image, float endValue, float duration, float delay, bool unscaledTime = false, UpdateType updateType = UpdateType.Normal, TweenCallback onComplete = null)
 		{
 			if (image == null)
 				return null;
@@ -763,6 +763,7 @@ namespace Watermelon
 			return DOTween.To(() => image.fillAmount, value => image.fillAmount = value, endValue, duration)
 				.SetDelay(delay)
 				.SetUpdate(updateType, unscaledTime)
+				.OnComplete(onComplete)
 				.SetTarget(image);
 		}
 	}

@@ -1,6 +1,9 @@
 using UnityEngine;
 
-public interface IMovement
+namespace DucDevGame
 {
-    void MoveTo(Vector3 worldPos);
+    public interface IMovement
+    {
+        void MoveTo(Vector3 worldPos);
+    }
 }

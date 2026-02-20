@@ -51,5 +51,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "horde-survival-game.sln"
+    "dotnet.defaultSolution": "horde-survival-game.sln",
+    "dotnet.preferCSharpExtension": true
 }

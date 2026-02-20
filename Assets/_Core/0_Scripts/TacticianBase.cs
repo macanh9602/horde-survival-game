@@ -1,9 +1,12 @@
 using UnityEngine;
 
-public abstract class TacticianBase : MonoBehaviour, IMovement
+namespace DucDevGame
 {
-    public virtual void MoveTo(Vector3 worldPos)
+    public abstract class TacticianBase : MonoBehaviour, IMovement
     {
-        //transform.position = worldPos;
+        public virtual void MoveTo(Vector3 worldPos)
+        {
+            //transform.position = worldPos;
+        }
     }
 }

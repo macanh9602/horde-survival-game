@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace DucDevGame
@@ -8,11 +9,14 @@ namespace DucDevGame
         [SerializeField] private LayerMask draggableLayer;
         [SerializeField] private LayerMask groundLayer;
         [SerializeField] private HexGridView gridView;
+        [SerializeField] private BenchGridView benchGridView;
+        [SerializeField] private GridZoneIdentifier gridZoneIdentifier;
 
         private IDraggable currentDragged;
         private Camera mainCamera;
         private Vector3 _dragOffset;
-        private CellView currentHoverCell;
+        private HexCellView currentHoverHexCell;
+        private BenchCellView currentHoverBenchCell;
         private void Awake()
         {
             mainCamera = Camera.main;
@@ -35,7 +39,7 @@ namespace DucDevGame
                 StopDrag();
             }
         }
-
+        [ShowInInspector]
         private bool isDragging => currentDragged != null;
 
         private void TryStartDrag()
@@ -61,28 +65,69 @@ namespace DucDevGame
                 Debug.DrawRay(ray.origin, ray.direction * hit.distance, Color.green);
                 Vector3 worldPos = hit.point + _dragOffset;
                 Vector3 targetPos = worldPos;
-                //Debug.Log($"<color=green>[DA]</color> {allTargets.Count}");
                 currentDragged.OnDragUpdate(targetPos);
-                if (gridView.TryGetCube(worldPos, out Vector3Int cube))
+                GridZoneType zoneType = gridZoneIdentifier.GetZoneType(worldPos);
+                switch (zoneType)
                 {
-                    CellView view = gridView.GetCellView(cube);
-                    if (view != null)
-                    {
-                        if (currentHoverCell != null && currentHoverCell == view) return;
-                        if (currentHoverCell == null) currentHoverCell = view;
-                        currentHoverCell.ActivateHighlight(false);
-                        currentHoverCell = view;
-                        view.ActivateHighlight(true);
-                    }
+                    case GridZoneType.None:
+                        //Debug.Log("Dragging over: None");
+                        break;
+                    case GridZoneType.Hex:
+                        if (currentHoverBenchCell != null)
+                        {
+                            currentHoverBenchCell.ActivateHighlight(false);
+                            currentHoverBenchCell = null;
+                        }
+                        if (gridView.TryGetCube(worldPos, out Vector3Int cube))
+                        {
+                            HexCellView view = gridView.GetHexCellView(cube);
+                            if (view != null)
+                            {
+                                if (currentHoverHexCell != null && currentHoverHexCell == view) return;
+                                if (currentHoverHexCell == null) currentHoverHexCell = view;
+                                currentHoverHexCell.ActivateHighlight(false);
+                                currentHoverHexCell = view;
+                                view.ActivateHighlight(true);
+                            }
 
+                        }
+                        else
+                        {
+                            if (currentHoverHexCell != null)
+                            {
+                                currentHoverHexCell.ActivateHighlight(false);
+                            }
+                        }
+                        break;
+                    case GridZoneType.Bench:
+                        if (currentHoverHexCell != null)
+                        {
+                            currentHoverHexCell.ActivateHighlight(false);
+                            currentHoverHexCell = null;
+                        }
+                        if (benchGridView.TryGetCell(worldPos, out Vector2Int benchCell))
+                        {
+                            BenchCellView view = benchGridView.GetCellView(benchCell);
+                            if (view != null)
+                            {
+                                if (currentHoverBenchCell != null && currentHoverBenchCell == view) return;
+                                if (currentHoverBenchCell == null) currentHoverBenchCell = view;
+                                currentHoverBenchCell.ActivateHighlight(false);
+                                currentHoverBenchCell = view;
+                                view.ActivateHighlight(true);
+                            }
+
+                        }
+                        else
+                        {
+                            if (currentHoverBenchCell != null)
+                            {
+                                currentHoverBenchCell.ActivateHighlight(false);
+                            }
+                        }
+                        break;
                 }
-                else
-                {
-                    if (currentHoverCell != null)
-                    {
-                        currentHoverCell.ActivateHighlight(false);
-                    }
-                }
+
             }
         }
 
@@ -90,11 +135,18 @@ namespace DucDevGame
         {
             Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
             Vector3 finalPos = currentDragged.GetTransform().position;
-            if (currentHoverCell != null)
+            if (currentHoverHexCell != null)
             {
-                finalPos = currentHoverCell.transform.position;
-                currentHoverCell.ActivateHighlight(false);
-                currentHoverCell = null;
+                finalPos = currentHoverHexCell.transform.position;
+                currentHoverHexCell.ActivateHighlight(false);
+                currentHoverHexCell = null;
+            }
+
+            if (currentHoverBenchCell != null)
+            {
+                finalPos = currentHoverBenchCell.transform.position;
+                currentHoverBenchCell.ActivateHighlight(false);
+                currentHoverBenchCell = null;
             }
 
             currentDragged.OnDrop(finalPos);
