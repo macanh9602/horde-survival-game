@@ -1,3 +1,5 @@
+using UnityEngine;
+
 namespace DucDevGame
 {
     /// <summary>
@@ -6,7 +8,8 @@ namespace DucDevGame
     public struct BenchCellState
     {
         public bool IsOccupied;
-        public UnityEngine.GameObject OccupyingUnit;
+        public GameObject OccupyingUnit;
+        public MonoBehaviour OccupyingChampion; // Reference to Champion component (MonoBehaviour for now)
 
         // Can add more properties like:
         // public int Cost;

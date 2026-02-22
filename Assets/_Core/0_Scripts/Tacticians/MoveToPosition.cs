@@ -15,9 +15,6 @@ namespace DucDevGame
 
         public Teemo teemo;
 
-
-
-
         public override void OnStart()
         {
             teemo.Walk();
@@ -28,10 +25,10 @@ namespace DucDevGame
         {
             Vector3 currentPos = transform.position;
             Vector3 destination = teemo.GetTargetPosition();
-            destination.y = currentPos.y; // Đảm bảo linh thú không bay lên
+            destination.y = currentPos.y;
 
             float distance = Vector3.Distance(currentPos, destination);
-            if (distance < 0.1f) return TaskStatus.Success;
+            if (distance < 0.1f) return TaskStatus.Failure;
 
             // Xoay mặt
             Vector3 direction = (destination - currentPos).normalized;

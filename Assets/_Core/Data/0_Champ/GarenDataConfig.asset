@@ -19,5 +19,11 @@ MonoBehaviour:
   rarity: 3
   lockStatus: 0
   unlockRequirements: []
-  icon: {fileID: 0}
-  prefab: {fileID: 0}
+  GraphicsPrefab: {fileID: 4321496921018116221, guid: c1f9cd650d1c68e4ab6eb5471c750065, type: 3}
+  stat:
+    baseHP: 100
+    baseDamage: 10
+    baseArmor: 10
+    baseSpeed: 5
+    baseAttackRange: 1
+    baseAttackSpeed: 1

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eba0ef2257e9cc44a21b86601a4d841, type: 3}
+  m_Name: EquipmentSO_
+  m_EditorClassIdentifier: Assembly-CSharp::DucDevGame.EquipmentSO
+  componentName: 100
+  _name: Kiem BF
+  description: Day lla kiem BF
+  icon: {fileID: 431298731, guid: 64b3b9d5da2441344af5cd6634f9fdea, type: 3}
+  upgradePaths:
+    m_keys: 640000006f000000de0000004d010000bc0100002b0200009a0200000903000078030000e7030000e8030000
+    m_values: 4006000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  statValues:
+    m_keys: 
+    m_values: []

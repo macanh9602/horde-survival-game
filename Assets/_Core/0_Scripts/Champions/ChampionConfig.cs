@@ -7,26 +7,24 @@ namespace DucDevGame
     public class ChampionConfig : ScriptableObject
     {
         #region Fields
-        [VerticalGroup("0/1"), LabelWidth(100)]
         public ChampionName type;
-        [VerticalGroup("0/1"), LabelWidth(100)]
         public OriginType origin;
-        [VerticalGroup("0/1"), LabelWidth(100)]
+
         public ClassType classType;
-        [VerticalGroup("0/1"), LabelWidth(100)]
+
         public RoleType role;
-        [VerticalGroup("0/1"), LabelWidth(100)]
+
         public RarityType rarity;
-        [VerticalGroup("0/1"), LabelWidth(100)]
+
         public LockStatus lockStatus;
-        [VerticalGroup("0/1"), LabelWidth(100)]
+
         [ShowIf("lockStatus", LockStatus.Locked)]
         public List<UnlockRequirement> unlockRequirements;
-        [PreviewField(100), HideLabel, HorizontalGroup("0", 100)]
-        public Sprite icon;
+        [PreviewField(100), HideLabel]
 
-        [VerticalGroup("0/1"), LabelWidth(100)]
-        public UnitBase prefab;
+        public GameObject GraphicsPrefab;
+
+        public ChampionStatConfig stat;
 
         #endregion
 
