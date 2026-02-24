@@ -53,7 +53,6 @@ namespace DucDevGame
 
         private void Update()
         {
-            if (!_isDragging) return;
             float targetHeight = _isDragging ? pickUpHeight : 0f;
             _currentHeight = Mathf.Lerp(_currentHeight, targetHeight, Time.deltaTime * 12f);
 

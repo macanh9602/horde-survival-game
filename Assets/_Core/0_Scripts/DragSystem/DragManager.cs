@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using Sirenix.OdinInspector;
 using UnityEngine;
+using VTLTools;
 
 namespace DucDevGame
 {
@@ -17,6 +18,9 @@ namespace DucDevGame
         private Vector3 _dragOffset;
         private HexCellView currentHoverHexCell;
         private BenchCellView currentHoverBenchCell;
+
+        public HexGridView GridView => gridView;
+
         private void Awake()
         {
             mainCamera = Camera.main;
@@ -148,7 +152,7 @@ namespace DucDevGame
                 currentHoverBenchCell.ActivateHighlight(false);
                 currentHoverBenchCell = null;
             }
-
+            //DebugUtils.DrawWireSphere(finalPos, 0.5f, Color.red, 2f);
             currentDragged.OnDrop(finalPos);
             currentDragged = null;
         }

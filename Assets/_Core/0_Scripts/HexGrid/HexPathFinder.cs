@@ -39,7 +39,7 @@ namespace DucDevGame
             cameFrom[start] = start;
 
             bool found = false;
-            Debug.Log($"Starting BFS from {start} to {target}");
+
             while (queue.Count > 0)
             {
                 Vector3Int center = queue.Dequeue();
@@ -72,7 +72,6 @@ namespace DucDevGame
             }
             result.Add(start);
             result.Reverse();
-
             return result;
         }
     }

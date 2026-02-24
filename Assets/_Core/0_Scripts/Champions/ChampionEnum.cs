@@ -85,18 +85,27 @@ namespace DucDevGame
         MagicMage = 9
     }
 
-    public enum RarityType
+    public enum LevelStar
     {
-        Tier1 = 0,
-        Tier2 = 1,
-        Tier3 = 2,
-        Tier4 = 3,
-        Tier5 = 4,
+        Lv1 = 0,
+        Lv2 = 1,
+        Lv3 = 2,
+        Lv4 = 3,
     }
 
     public enum LockStatus
     {
         Unlocked = 0,
         Locked = 1
+    }
+
+    public enum ChampionAction
+    {
+        Idle = 0,
+        Walk = 1,
+        BasicAttack = 2,
+        CastSkill = 3,
+        Death = 4,
+        Dance = 5
     }
 }

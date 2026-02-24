@@ -6,6 +6,6 @@ namespace DucDevGame
     public struct CellState
     {
         public bool Walkable;
-        //other details can be added here, such as movement cost, cover, etc.
+        public IGridEntity OccupiedBy;
     }
 }

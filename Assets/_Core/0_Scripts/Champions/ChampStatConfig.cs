@@ -7,4 +7,6 @@ public class ChampionStatConfig
     public float baseSpeed = 5f;
     public float baseAttackRange = 1f;
     public float baseAttackSpeed = 1f;
+
 }
+

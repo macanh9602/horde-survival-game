@@ -19,7 +19,7 @@ MonoBehaviour:
   rarity: 3
   lockStatus: 0
   unlockRequirements: []
-  GraphicsPrefab: {fileID: 4321496921018116221, guid: c1f9cd650d1c68e4ab6eb5471c750065, type: 3}
+  GraphicsPrefab: {fileID: 7697598243604917184, guid: 86faf4a33b6e4b947a702c56810960ca, type: 3}
   stat:
     baseHP: 100
     baseDamage: 10

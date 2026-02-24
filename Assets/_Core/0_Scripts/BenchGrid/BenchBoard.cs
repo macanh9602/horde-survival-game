@@ -12,6 +12,7 @@ namespace DucDevGame
         public BenchGridModel gridModel;
         [SerializeField] private BenchGridContext gridContext;
         [SerializeField] private BenchGridView gridView;
+        [SerializeField] private BaseChampionBehavior championPrefab;
 
         private Dictionary<Vector2Int, BenchCellState> cellsMapping;
 
@@ -155,7 +156,7 @@ namespace DucDevGame
         /// <summary>
         /// Spawns a champion to a specific bench cell (only if IsOccupied = false)
         /// </summary>
-        public Champion SpawnChampionToCell(ChampionName championType, Vector2Int cell, int level = 1, int stars = 1)
+        public BaseChampionBehavior SpawnChampionToCell(ChampionName championType, Vector2Int cell, int level = 1, int stars = 1)
         {
             // Check if cell is valid and unoccupied
             if (!cellsMapping.ContainsKey(cell))
@@ -183,22 +184,15 @@ namespace DucDevGame
             Vector3 worldPos = GetCellWorldPosition(cell);
 
             // Spawn graphics prefab
-            GameObject championObj = Object.Instantiate(config.GraphicsPrefab);
-            championObj.transform.position = worldPos;
-            championObj.transform.SetParent(gridContext.GridTransform);
-
-            // Get or add Champion component
-            Champion champion = championObj.GetComponent<Champion>();
-            if (champion == null)
-            {
-                champion = championObj.AddComponent<Champion>();
-            }
+            BaseChampionBehavior champion = Instantiate(championPrefab);
+            champion.transform.position = worldPos;
+            champion.transform.SetParent(gridContext.GridTransform);
 
             // Initialize champion
             champion.Initialize(config, cell, level, stars, true);
 
             // Occupy cell
-            OccupyCell(cell, championObj, champion as MonoBehaviour);
+            OccupyCell(cell, champion.gameObject, champion as MonoBehaviour);
 
             Debug.Log($"Spawned {championType} to bench cell {cell} at position {worldPos}");
             return champion;
@@ -207,7 +201,7 @@ namespace DucDevGame
         /// <summary>
         /// Spawns a champion to the first available bench cell
         /// </summary>
-        public Champion SpawnChampionToFirstAvailableCell(ChampionName championType, int level = 1, int stars = 1)
+        public BaseChampionBehavior SpawnChampionToFirstAvailableCell(ChampionName championType, int level = 1, int stars = 1)
         {
             if (TryGetFirstAvailableCell(out Vector2Int cell))
             {

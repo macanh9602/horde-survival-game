@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using Sirenix.OdinInspector;
 using UnityEngine;
@@ -14,7 +15,7 @@ namespace DucDevGame
 
         public RoleType role;
 
-        public RarityType rarity;
+        public LevelStar rarity;
 
         public LockStatus lockStatus;
 
@@ -24,7 +25,8 @@ namespace DucDevGame
 
         public GameObject GraphicsPrefab;
 
-        public ChampionStatConfig stat;
+        private ChampionStatConfig[] levelStarBaseStat = new ChampionStatConfig[Enum.GetValues(typeof(LevelStar)).Length];
+
 
         #endregion
 
@@ -41,7 +43,16 @@ namespace DucDevGame
         #endregion
 
         #region Public Methods
-
+        public ChampionStatConfig GetBaseStat(LevelStar levelStar)
+        {
+            int index = (int)levelStar;
+            if (index < 0 || index >= levelStarBaseStat.Length)
+            {
+                Debug.LogError($"Invalid LevelStar value: {levelStar}");
+                return null;
+            }
+            return levelStarBaseStat[index];
+        }
         #endregion
     }
 

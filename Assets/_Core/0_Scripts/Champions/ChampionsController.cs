@@ -21,7 +21,7 @@ namespace DucDevGame
         /// Spawn champion to specific bench cell
         /// </summary>
         [Button("Test Spawn at Cell (0,0)")]
-        public Champion SpawnChampionToCell(ChampionName name, Vector2Int cell, int level = 1, int stars = 1)
+        public BaseChampionBehavior SpawnChampionToCell(ChampionName name, Vector2Int cell, int level = 1, int stars = 1)
         {
             if (benchBoard == null)
             {
@@ -36,7 +36,7 @@ namespace DucDevGame
         /// Spawn champion to first available bench cell
         /// </summary>
         [Button("Test Spawn to Available Cell")]
-        public Champion SpawnChampionToAvailableCell(ChampionName name = ChampionName.Garen, int level = 1, int stars = 1)
+        public BaseChampionBehavior SpawnChampionToAvailableCell(ChampionName name = ChampionName.Garen, int level = 1, int stars = 1)
         {
             if (benchBoard == null)
             {
@@ -50,7 +50,7 @@ namespace DucDevGame
         /// <summary>
         /// Remove champion from bench
         /// </summary>
-        public void RemoveChampion(Champion champion)
+        public void RemoveChampion(BaseChampionBehavior champion)
         {
             if (benchBoard == null || champion == null) return;
 
@@ -60,12 +60,12 @@ namespace DucDevGame
         /// <summary>
         /// Get champion at specific cell
         /// </summary>
-        public Champion GetChampionAtCell(Vector2Int cell)
+        public BaseChampionBehavior GetChampionAtCell(Vector2Int cell)
         {
             if (benchBoard == null) return null;
 
             var state = benchBoard.GetCellState(cell);
-            return state.OccupyingChampion as Champion;
+            return state.OccupyingChampion as BaseChampionBehavior;
         }
     }
 }

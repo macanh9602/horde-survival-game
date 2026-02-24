@@ -147,7 +147,337 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: tftm_healthbaratlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 454
+        width: 512
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c8e24c5f245c14e83fbf158c206806
+      internalID: 1435352732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_healthbaratlas_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 422
+        width: 512
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c052dd638f6e1645ad62ca6f251c810
+      internalID: 125207963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_healthbaratlas_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 390
+        width: 512
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a25db55d619a1a45bc7fd8e286c2c96
+      internalID: -2046589403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_healthbaratlas_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 358
+        width: 512
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27dce2eeaa04eca43bf4f5ba331886c8
+      internalID: 1932063601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_healthbaratlas_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 326
+        width: 512
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443ad4b56f9bb46418cc4ac0c5cd8068
+      internalID: -1402383011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_healthbaratlas_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 294
+        width: 512
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4445e93718ae84ab74e3a0689b2919
+      internalID: -1493386561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_healthbaratlas_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 262
+        width: 512
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff7b4ba69e278b4a8c6b854e1da27f4
+      internalID: 1108691879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_healthbaratlas_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 512
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2400ba805a6eed49abdb4caa2c66041
+      internalID: -229427222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_healthbaratlas_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 198
+        width: 512
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72d8a450b043724c8b4cb72c4691bb6
+      internalID: -1074346600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_healthbaratlas_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 166
+        width: 512
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e29c401e4325e4da29b6a8de5d3364
+      internalID: 1862203300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_healthbaratlas_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 134
+        width: 512
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290d71e65e49e1344b41c862c569e063
+      internalID: -307800219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_healthbaratlas_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 102
+        width: 512
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f33faa07a1e3b458006422614c90d4
+      internalID: 461167088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_healthbaratlas_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 70
+        width: 512
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c86079cbd0aea4d857aa3a1d18d6f0
+      internalID: -887835240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_healthbaratlas_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 38
+        width: 512
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf0fedaae3e8524ebd6f9fb29b1b55d
+      internalID: -263031595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tftm_healthbaratlas_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 512
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4448981a678f46f40abd745a3ccb02ae
+      internalID: 412410381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -160,8 +490,27 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
-    nameFileIdTable: {}
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":true,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":512.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":26.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+      - key: SpriteEditor.SliceOnImport
+        value: True
+    nameFileIdTable:
+      tftm_healthbaratlas_0: 1435352732
+      tftm_healthbaratlas_1: 125207963
+      tftm_healthbaratlas_10: -307800219
+      tftm_healthbaratlas_11: 461167088
+      tftm_healthbaratlas_12: -887835240
+      tftm_healthbaratlas_13: -263031595
+      tftm_healthbaratlas_14: 412410381
+      tftm_healthbaratlas_2: -2046589403
+      tftm_healthbaratlas_3: 1932063601
+      tftm_healthbaratlas_4: -1402383011
+      tftm_healthbaratlas_5: -1493386561
+      tftm_healthbaratlas_6: 1108691879
+      tftm_healthbaratlas_7: -229427222
+      tftm_healthbaratlas_8: -1074346600
+      tftm_healthbaratlas_9: 1862203300
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
